@@ -81,7 +81,6 @@ EOF
 cat > /etc/auto.nfs << EOF
 users   -nfsvers=3,tcp  192.0.1.108:/home
 share   -nfsvers=3,tcp  192.0.1.108:/share
-data    -nfsvers=3,tcp  192.0.1.21:/data0
 EOF
 
 # Create /opt/hpc in /etc/fstab
